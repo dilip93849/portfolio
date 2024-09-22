@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <br>
+        <div class="form-section">
+            <h2>Contact Us</h2>
+            <br>
+            <form>
+                <label>Your Name:</label>
+                <input type="text" id="name" required>
+
+                <label>Your Contact (Email/Phone):</label>
+                <input type="text" id="contact" required>
+
+                <label>Your Query:</label>
+                <textarea id="query"  rows="4" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+            <hr>
+            <br>
+            <h2>Contact Information</h2>
+            <br>
+            <p><i class="fas fa-envelope"></i><strong> Email:</strong> 833dilipkumar@gmail.com</p>
+            <br>
+            <p><i class="fas fa-phone"></i><strong> Phone:</strong> 9384977792</p>
+            <br>
+            <p><i class="fas fa-map-marker-alt"></i><strong> Address:</strong> Madurai</p>
+            <br>
+            <button id="toggleButton">Switch to Light Mode</button>
+    <script src="script.js"></script> 
+</body>
+</html>
