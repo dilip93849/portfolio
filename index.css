@@ -17,6 +17,13 @@ body {
     animation: fadeIn 1s backwards;
 }
 
+img {
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -40,22 +47,25 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #111;
 }
-#content{
+
+#content {
     margin: 50px;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
+
 button {
     display: block;
     margin: 20px auto;
-    padding: 10px 20px;
+    padding: 10px;
     cursor: pointer;
     border-radius: 8px;
     animation: fadeIn 1s backwards;
 }
+
 button:hover {
-    color: #ff6347; 
+    color: #ff6347;
 }
 
 
@@ -64,15 +74,17 @@ button:hover {
         opacity: 0;
         transform: translateY(20px);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
     }
 }
+
 .light-mode {
     background-image: url('https://tse4.mm.bing.net/th?id=OIP.dljobvua-c_4hBvxhtx8ewHaEo&pid=Api&P=0&h=180');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; 
+    background-attachment: fixed;
     color: black;
 }
