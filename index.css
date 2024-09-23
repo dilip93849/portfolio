@@ -95,3 +95,43 @@ button:hover {
     background-attachment: fixed;
     color: black;
 }
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    img {
+        width: 150px;
+        height: 200px;
+        margin-left: 30px;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        float: none;
+        display: inline-block;
+    }
+
+    #content {
+        margin: 50px;
+    }
+
+    h1, p {
+        margin-top: 50px;
+        margin-right: 40%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    button {
+        margin-left: 0;
+        display: block;
+        margin: 10px auto;
+        padding: 8px;
+    }
+    
+}

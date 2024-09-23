@@ -9,7 +9,7 @@ body {
     margin: 20px;
     padding: 20px;
     height: 100vh;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlAdsnzxqhcpil1ctXpBlDK4vLKc3_Lz_d9g&s');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlAdsnzxqhcpil1ctXpBlDK4vLKc3_Lz_d9g&ss');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -74,7 +74,7 @@ button:hover {
 @media (max-width: 500px) {
     body {
         padding: 10px;
-        background-image: url('https://tse4.mm.bing.net/th?id=OIP.eFeaQKj4D6oz9LpcUTAvIgHaEo&pid=Api&P=0&h=180');
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlAdsnzxqhcpil1ctXpBlDK4vLKc3_Lz_d9g&ss');
     background-size: cover;
     background-position: center;
     color: white;
@@ -94,7 +94,7 @@ button:hover {
     body {
         padding: 15px;
         background-color: rgb(233, 116, 96);
-        background-image: url('https://tse4.mm.bing.net/th?id=OIP.eFeaQKj4D6oz9LpcUTAvIgHaEo&pid=Api&P=0&h=180');
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlAdsnzxqhcpil1ctXpBlDK4vLKc3_Lz_d9g&ss');
     background-size: cover;
     background-position: center;
     color: white;
@@ -113,7 +113,7 @@ button:hover {
     background-image: url('https://tse4.mm.bing.net/th?id=OIP.dljobvua-c_4hBvxhtx8ewHaEo&pid=Api&P=0&h=180');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; 
+    background-attachment: fixed;
     color: black;
 }
 @keyframes fadeIn {
