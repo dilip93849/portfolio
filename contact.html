@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,7 +31,7 @@
                 <label>Your Query:</label>
                 <textarea id="query"  rows="4" required></textarea>
 
-                <button type="submit">Send</button>
+                <button onclick="alertmessage()">Send</button>
             </form>
         </div>
             <hr>
@@ -45,5 +46,10 @@
             <br>
             <button id="toggleButton">Switch to Light Mode</button>
     <script src="script.js"></script> 
+    <script>
+        function alertmessage(){
+            alert("Thanks for contacting us! will reach you soon as possible");
+        }
+    </script>
 </body>
 </html>
