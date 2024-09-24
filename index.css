@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto Slab", serif;
     margin: 20px;
     padding: 20px;
     height: 100vh;
@@ -18,13 +19,9 @@ body {
 }
 
 img {
-    position: absolute;
     width: 200px;
     height: 300px;
     border-radius: 200px;
-    border: 1px solid black;
-    margin-left:190px;
-    padding: 10px;
 }
 
 nav ul {
@@ -36,7 +33,7 @@ nav ul {
 }
 
 nav ul li {
-    float: right;
+    float: left;
 }
 
 nav ul li a {
@@ -52,26 +49,13 @@ nav ul li a:hover {
 }
 
 #content {
-    margin: 100px;
+    margin-top: 20px;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
-h1,p{
-    margin-top: 100px;
-    margin-left: -500px;
-}
 
-button {
-    display: block;
-    margin-left: 300px;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 8px;
-    animation: fadeIn 1s backwards;
-}
-
-button:hover {
+#content button:hover {
     color: #ff6347;
 }
 
