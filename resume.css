@@ -76,16 +76,18 @@ th, td {
 .right-align {
     text-align: right;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     body {
-        font-size: 12px;
-        padding: 5px;
-        font-family: Arial, Helvetica, sans-serif;
-        height: 100vh;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlAdsnzxqhcpil1ctXpBlDK4vLKc3_Lz_d9g&ss');
-    background-size: cover;
-    background-position: center;
+        margin: 10px;
+        padding: 10px;
+    }
+    nav ul {
+        text-align: left;
+    }
 
+    nav ul li {
+        float: none;
+        display: inline-block;
     }
 
     h1 {
@@ -110,37 +112,6 @@ th, td {
     }
 }
 
-@media screen and (min-width: 501px) and (max-width: 900px) {
-    body {
-        font-size: 14px;
-        padding: 10px;
-        height: 100vh;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlAdsnzxqhcpil1ctXpBlDK4vLKc3_Lz_d9g&ss');
-    background-size: cover;
-    background-position: center;
-    }
-
-    h1 {
-        font-size: 28px;
-    }
-
-    h2 {
-        font-size: 20px;
-    }
-
-    table {
-        width: 100%;
-        font-size: 12px;
-    }
-
-    .contact-info {
-        font-size: 14px;
-    }
-
-    hr {
-        margin: 15px 0;
-    }
-}
 .light-mode {
     background-image: url('https://tse4.mm.bing.net/th?id=OIP.dljobvua-c_4hBvxhtx8ewHaEo&pid=Api&P=0&h=180');
     background-size: cover;
