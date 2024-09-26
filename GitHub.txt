@@ -1,0 +1,43 @@
+Git:
+Git is a version control system similar to whats app
+We can make change using commit changes option and we can view changes made with the help of history 
+One github code can be used by many persons , mutiple people can use same code at same time
+
+Github:
+Webpage git repository hosting service
+Git is the backbone of github
+We can use bitbucket and git bucket instead of github
+
+log in git hub and use it with vs code
+
+Creation of new repository
+Creating new file or existing file
+
+To use vs code github download git and check installation in command prompt
+Set up email and username with git config--global command
+
+To move repository from github to vscode and make changes
+
+Use git clone in vs code terminal and copy repository code
+Use cd command to go to a folder in repository 
+Use git status to see status of the repository 
+To add new file using git add
+Use git commit -m with message to show the change with a message in repository on github
+Use git push to move the file to github repository with its branch name
+
+To get changes made in github to vs code
+
+Use git add
+And check git status
+Use gitpull get file changed from repository in github
+
+To delete file delete here and use git add and gitpush
+Or delete in repository of github and use git add and git pull command
+
+To initialize empty github repository use git init
+Use git remote to add new repository
+Use git branch to see brach name also can create new branch
+Change branch with git branch m main
+Use git branch -a to list out all branches
+To switch from one branch to other use git checkout with the branch name
+To merge branches use merge branch name
