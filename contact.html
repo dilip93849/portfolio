@@ -13,9 +13,12 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="resume.html">Resume</a></li>
             <li><a href="achievements.html">Achievements</a></li>
+            <li><a href="project.html">Projects</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li style="float: right; background-color: none;" class="button"><button id="toggleButton">Switch to Light Mode</button></li>
         </ul>
     </nav>
+    <div id="resume-content">
     <br>
         <div class="form-section">
             <h2>Contact Us</h2>
@@ -42,9 +45,8 @@
             <p><i class="fas fa-phone"></i><strong> Phone:</strong> 9384977792</p>
             <br>
             <p><i class="fas fa-map-marker-alt"></i><strong> Address:</strong> Madurai</p>
-            <br>
-            <button id="toggleButton">Switch to Light Mode</button>
             <br><br>
+            </div>
     <script src="script.js"></script>
     <script>
         function validation(){
@@ -64,8 +66,8 @@
                 alert("Please type your message");
                 return false;
             }
+            alert("Form submitted successfully!");
             return true;
-            
         }
 
     </script>

@@ -15,13 +15,19 @@ body {
     background-position: center;
     background-attachment: fixed;
     color: white;
-    animation: fadeIn 1s backwards;
 }
 
 img {
     width: 200px;
     height: 300px;
     border-radius: 200px;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1; /* Fully visible */
+    }
 }
 
 nav ul {
@@ -58,19 +64,51 @@ nav ul li a:hover {
 #content button:hover {
     color: #ff6347;
 }
+h1, p {
+    opacity: 0; /* Start hidden */
+    transform: translateX(-20px); /* Start slightly off-screen to the left */
+    animation: slideIn 0.5s forwards; /* Apply slideIn animation */
+}
 
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0);
+@keyframes slideIn {
+    to {
+        opacity: 1; /* Fully visible */
+        transform: translateX(0); /* Move to original position */
     }
 }
+
+/* Add different delays for paragraphs to stagger the animation */
+p:nth-of-type(1) {
+    animation-delay: 0.5s;
+}
+
+p:nth-of-type(2) {
+    animation-delay: 1s;
+}
+
+p:nth-of-type(3) {
+    animation-delay: 1.5s;
+}
+
+.button button {
+    background-color: #111;/* Green background */
+    border: none; /* Remove default border */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for size */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Inline block to fit content */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin for spacing */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.button button:hover {
+    background-color: rgb(72, 70, 70); /* Darker green on hover */
+}
+
 
 .light-mode {
     background-image: url('https://tse4.mm.bing.net/th?id=OIP.dljobvua-c_4hBvxhtx8ewHaEo&pid=Api&P=0&h=180');
@@ -78,6 +116,13 @@ nav ul li a:hover {
     background-position: center;
     background-attachment: fixed;
     color: black;
+}
+i{
+    font-size: 30px;
+}
+.icon{
+    border: 1 px solid white;
+    background-color: #333;
 }
 @media (max-width: 600px) {
     body {
@@ -104,6 +149,7 @@ nav ul li a:hover {
         text-align: center;
         align-items: center;
     }
+
     button {
         margin-left: 0;
         display: block;
