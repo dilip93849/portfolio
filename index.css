@@ -105,10 +105,10 @@ h1, p , i{
     color: black;
 }
 
-.icon{
-    border: 1 px solid white;
-    background-color: #333;
+.size{
+    font-size: 30px;
 }
+
 @media (max-width: 600px) {
     body {
         margin: 10px;
