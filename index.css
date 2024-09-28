@@ -64,10 +64,10 @@ nav ul li a:hover {
 #content button:hover {
     color: #ff6347;
 }
-h1, p {
+h1, p , i{
     opacity: 0; /* Start hidden */
     transform: translateX(-20px); /* Start slightly off-screen to the left */
-    animation: slideIn 0.5s forwards; /* Apply slideIn animation */
+    animation: slideIn 1s forwards; /* Apply slideIn animation */
 }
 
 @keyframes slideIn {
@@ -75,19 +75,6 @@ h1, p {
         opacity: 1; /* Fully visible */
         transform: translateX(0); /* Move to original position */
     }
-}
-
-/* Add different delays for paragraphs to stagger the animation */
-p:nth-of-type(1) {
-    animation-delay: 0.5s;
-}
-
-p:nth-of-type(2) {
-    animation-delay: 1s;
-}
-
-p:nth-of-type(3) {
-    animation-delay: 1.5s;
 }
 
 .button button {
@@ -111,15 +98,13 @@ p:nth-of-type(3) {
 
 
 .light-mode {
-    background-image: url('https://tse4.mm.bing.net/th?id=OIP.dljobvua-c_4hBvxhtx8ewHaEo&pid=Api&P=0&h=180');
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.hlAS5MLXwsftYZ6FTGyleQHaFj&pid=Api&P=0&h=180');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     color: black;
 }
-i{
-    font-size: 30px;
-}
+
 .icon{
     border: 1 px solid white;
     background-color: #333;

@@ -83,11 +83,21 @@ h1{
 }
 
 .light-mode {
-    background-image: url('https://tse4.mm.bing.net/th?id=OIP.dljobvua-c_4hBvxhtx8ewHaEo&pid=Api&P=0&h=180');
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.hlAS5MLXwsftYZ6FTGyleQHaFj&pid=Api&P=0&h=180');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     color: black;
+}
+.card {
+    background:linear-gradient(rgb(114, 114, 198),rgb(128, 128, 231)) ;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card p{
+    margin-top: 20px;
 }
 @media (max-width: 600px) {
     body {

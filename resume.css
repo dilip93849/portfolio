@@ -40,11 +40,9 @@ img{
 }
 h1 {
     font-size: 2.5em;
-    color:white;
 }
 h2 {
     font-size: 1.8em;
-    color: white;
     margin-bottom: 10px;
 }
 hr {
@@ -141,7 +139,7 @@ th, td {
 }
 
 .light-mode {
-    background-image: url('https://tse4.mm.bing.net/th?id=OIP.dljobvua-c_4hBvxhtx8ewHaEo&pid=Api&P=0&h=180');
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.hlAS5MLXwsftYZ6FTGyleQHaFj&pid=Api&P=0&h=180');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
